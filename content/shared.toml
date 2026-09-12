@@ -1,0 +1,73 @@
+# Data identical in every language. Patent and publication titles stay in their official English form.
+
+site_url = "https://awesome72.github.io/sunghunkim-landing/"
+email = "sunghunkim@yahoo.com"
+phone = "+82 10-6697-6569"
+phone_tel = "+821066976569"
+
+[[patents]]
+year = "2014"
+title = "Transparent Articles Including Electromagnetic Radiation Shielding"
+authors = "J. Jung, S.H. Kim et al."
+id = "PCT/IB2015/052157"
+
+[[patents]]
+year = "2014"
+title = "End-Capped and Branched Polycarbonate Resin and Method for Preparing the Same"
+authors = "S.H. Kim et al."
+id = "KR 10-1349711"
+
+[[patents]]
+year = "2013"
+title = "Branched Polycarbonate Resin Composition and Branched Polycarbonate Resin and Molded Product Made Using the Same"
+authors = "C.G. Shin, S.H. Kim et al."
+id = "KR 10-1247628"
+
+[[patents]]
+year = "2011"
+title = "Branching Agent for Branched Polycarbonate, Method for Preparing Thereof and Branched Polycarbonate Using the Same"
+authors = "S.H. Kim et al."
+id = "KR 10-1008577"
+
+[[patents]]
+year = "2009"
+title = "Branched Polycarbonate Resin Composition and Branched Polycarbonate Resin and Molded Product Made Using the Same"
+authors = "C.G. Shin, S.H. Kim et al."
+id = "US 8,450,403"
+
+[[patents]]
+year = "2008"
+title = "Branched Polycarbonate Resin Which Can Control Molecular Structure Effectively and Method for Producing the Same"
+authors = "S.H. Kim et al."
+id = "KR 10-0862243"
+
+# kind must match a key in each language's research.kinds
+[[publications]]
+year = "2009"
+title = "Synthesis and Characterization of Hyperbranched Polymers by High Temperature Continuous Polymerization"
+venue = "SPE Korea, Daejeon"
+kind = "conference"
+
+[[publications]]
+year = "2007"
+title = "A Unifying Approach for Melt Rheology of Linear Polystyrene"
+venue = "S.H. Kim, F. Teymour, J.A. Debling · J. Appl. Polym. Sci., Vol. 103, 2597–2607"
+kind = "journal"
+
+[[publications]]
+year = "2006"
+title = "CARP: Carbon Accelerated Radical Polymerization — Free Radical Polymerization on Carbon Nanoparticles"
+venue = "Polymer Reaction Engineering VI, Halifax"
+kind = "conference"
+
+[[publications]]
+year = "2006"
+title = "Model-Based Construction of Branched Polymer MWD from Triple Detector GPC Signals"
+venue = "Polymer Reaction Engineering VI, Halifax"
+kind = "conference"
+
+[[publications]]
+year = "2003"
+title = "Synthesis and Characterization of Hyperbranched Polymers by High Temperature Continuous Polymerization"
+venue = "AIChE Annual Meeting, San Francisco"
+kind = "conference"

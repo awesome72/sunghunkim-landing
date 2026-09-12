@@ -1,0 +1,295 @@
+# Text markup: *emphasis*, T_{g} for subscript, {ko:김성헌} marks a phrase in another language.
+
+code = "ko"
+html_lang = "ko"
+hreflang = "ko"
+label = "KO"
+native = "한국어"
+og_locale = "ko_KR"
+title = "김성헌 Sung Hun Kim, Ph.D."
+description = "SABIC Asia-Pacific Lead Scientist 김성헌 박사. 폴리머 소재 기술과 글로벌 사업 개발 분야 20년 이상의 경력."
+og_title = "김성헌 Sung Hun Kim, Ph.D."
+og_description = "SABIC Asia-Pacific Lead Scientist · 폴리머 소재 기술과 글로벌 사업 개발 20년"
+font_links = []
+
+[ui]
+brand = "김성헌"
+brand_sub = "Sung Hun Kim, Ph.D."
+nav_aria = "주요 섹션"
+lang_aria = "언어 선택"
+contact_cta = "Contact"
+stats_aria = "주요 지표"
+copy = "주소 복사"
+copied = "복사됨"
+copy_failed = "복사 실패"
+copyright = "© 2026 김성헌 Sung Hun Kim"
+footer_tagline = "Polymer Materials · Technology & Business Development"
+nav = [
+  { id = "profile", label = "프로필" },
+  { id = "expertise", label = "전문분야" },
+  { id = "career", label = "경력" },
+  { id = "education", label = "학력" },
+  { id = "research", label = "연구성과" },
+]
+
+[hero]
+eyebrow = "Polymer Materials · Technology & Business Development"
+name = "김성헌"
+alt = "Sung Hun Kim, Ph.D."
+lead = "폴리머 소재 과학과 글로벌 비즈니스를 잇는 기술 리더"
+sub = "SABIC Asia-Pacific Lead Scientist. 삼성 제일모직과 SABIC에서 20년 이상 폴리카보네이트·폴리올레핀·엔지니어링 플라스틱의 연구개발, 제품 전략, 사업 개발을 이끌어 왔습니다."
+cta_primary = "연락하기"
+cta_secondary = "경력 보기"
+affil_label = "경력 및 학력 기관"
+affil = ["SABIC", "Samsung Cheil Industries", "Illinois Institute of Technology", "KAIST"]
+photo_alt = "김성헌 박사 프로필 사진"
+caption_title = "Lead Scientist, SABIC Asia-Pacific"
+caption_sub = "Seoul, Korea"
+
+[[stats]]
+value = "20+"
+unit = "년"
+label = "글로벌 화학 산업 경력"
+note = "2006 – 현재"
+
+[[stats]]
+value = "13+"
+unit = "년"
+label = "SABIC 재직"
+note = "Lead Scientist, APAC"
+
+[[stats]]
+value = "6"
+unit = "건"
+label = "특허"
+note = "등록 5 · PCT 출원 1"
+
+[[stats]]
+value = "4"
+unit = "개"
+label = "학위"
+note = "Ph.D. · MBA · M.S. · B.S."
+
+[profile]
+eyebrow = "Profile"
+title = "프로필"
+statement = "시장과 고객에서 출발해 기술 과제를 정의하고, 연구 성과를 *가전·전자·자동차 산업의 제품과 사업*으로 연결해 왔습니다."
+sub = "화학공학 박사 학위와 KAIST MBA를 바탕으로 연구개발, 생산 기술, 제품 마케팅, 사업 개발을 두루 경험했습니다. 현재 SABIC에서 아시아·태평양 지역 가전 및 E&E 산업 대상 소재 프로젝트를 이끌고 있습니다."
+
+[expertise]
+eyebrow = "Expertise"
+title = "전문 분야"
+intro = "연구개발에서 사업개발까지, 폴리머 밸류체인 전반을 다룹니다."
+
+[[expertise.items]]
+title = "기술·사업 개발"
+body = "시장 조사와 고객 참여를 바탕으로 기술 프로젝트를 기획합니다. 폴리올레핀·엔지니어링 플라스틱 사업 개발과 SABIC/SK 합작법인, Aramco 아시아 자산의 기술·사업 지원을 수행하고 있습니다."
+keys = "Market-driven Projects · Joint Venture Support · APAC"
+
+[[expertise.items]]
+title = "폴리머 소재 R&D"
+body = "가전·전자·디스플레이 산업을 위한 신소재 개발 프로젝트를 이끌었습니다. 전자레인지 도어용 투명 EMI 차폐 소재, 히터용 자기발열 폴리머 등 신개념 가전 솔루션을 개발했습니다."
+keys = "Transparent EMI Shielding · Self-heating Polymer"
+
+[[expertise.items]]
+title = "제품 마케팅·전략"
+body = "TV 하우징, 자동차, IT 분야 폴리머 소재의 프로덕트 매니저로서 제품 포트폴리오와 수명주기를 관리하고, 화학 사업의 전사 전략 수립에 참여했습니다."
+keys = "Product Portfolio · Life-cycle Management · Strategy"
+
+[[expertise.items]]
+title = "공정 기술"
+body = "폴리머 합성, 중합, 특성 분석, 가공, 컴파운딩 전반의 기술 역량을 보유하고 있습니다. Asahi-Kasei 용융 공정 기반 폴리카보네이트 생산과 이축 압출 컴파운딩 분야의 전문가입니다."
+keys = "PC Melt Polymerization · Twin-screw Compounding"
+
+[[expertise.items]]
+title = "제품 개발"
+body = "난연 TV 하우징(PC/ABS), 세탁기 다이어프램(TPE), 투명 플라스틱(PC), LED 리플렉터(Nylon) 등 전자 제품용 소재를 개발했습니다."
+keys = "PC/ABS · TPE · PC · Nylon"
+
+[[expertise.items]]
+title = "연구 기반"
+body = "고분자 과학·공학의 이론과 실험 역량을 갖추고, 중합 반응 속도론, 분자량 분포, 압출 공정에 대한 모델링을 수행해 왔습니다."
+keys = "Polymerization Kinetics · MWD Modeling · Extrusion"
+
+[career]
+eyebrow = "Experience"
+title = "경력"
+intro = "학계 연구에서 출발해 글로벌 화학기업의 기술·사업 리더십까지."
+service_note = "병역 — 대한민국 공군, 김해 기지 (1992 – 1994)"
+
+[[career.orgs]]
+name = "SABIC"
+meta = "Seoul, Korea"
+span = "2013 – 현재"
+
+[[career.orgs.roles]]
+title = "Lead Scientist"
+date = "2016 – 현재"
+unit = "Market Development & Technical Support · Asia-Pacific MDTS / Petrochemicals"
+current = true
+bullets = [
+  "가전·E&E 산업 대상 시장 주도형 폴리머 소재 프로젝트 개발 — Global Lead",
+  "폴리올레핀(PE, PP), ETP(ABS, PC, POM, PMMA), 고무(EPDM, BR, POE) 사업 개발",
+  "SABIC/SK 합작법인(Nexlene Company) 메탈로센 PE 기술 지원",
+  "Aramco 아시아 자산(S-Oil, PRefChem) 폴리올레핀 기술·사업 지원",
+]
+
+[[career.orgs.roles]]
+title = "Lead Scientist"
+date = "2013 – 2016"
+unit = "Technology & Innovation · Asia-Pacific Regional T&I (구 GE Plastics)"
+bullets = [
+  "스페셜티·폴리머 사업 대상 시장 주도형 R&D 프로젝트 개발 — APAC Lead",
+  "투명 EMI 차폐 필름 등 신기술·신시장 R&D 프로젝트 수행",
+  "화학·폴리머 산업 신사업 기회 발굴",
+]
+
+[[career.orgs]]
+name = "Cheil Industries, Samsung"
+meta = "Uiwang · Yeosu, Korea — 현 Lotte Advanced Materials"
+span = "2006 – 2013"
+
+[[career.orgs.roles]]
+title = "Senior Manager"
+date = "2011 – 2013"
+unit = "Product Management Team · Global Marketing Center"
+bullets = [
+  "신제품 시장 개발 (Hit Product Design)",
+  "출시·확장·단종에 이르는 제품 수명주기의 물량·수익 관리",
+  "제품 포트폴리오 관리 및 화학 사업 전사 전략 수립",
+]
+
+[[career.orgs.roles]]
+title = "Principal Researcher"
+date = "2010 – 2011"
+unit = "Compounding & Processing Technology Group"
+bullets = [
+  "저발열 니딩 엘리먼트 적용 스크류 구성 최적화로 컴파운딩 생산능력 증대 (전체 라인의 10%, 연 50,000톤)",
+  "비할로겐 난연 등급의 제조 품질 보증",
+  "신소재(TPE, Nylon) 압출 공정 조건 최적화",
+]
+
+[[career.orgs.roles]]
+title = "Senior Researcher"
+date = "2009 – 2010"
+unit = "Compounding Extrusion Processing Group"
+bullets = [
+  "엔지니어링 플라스틱 공장 컴파운딩 공정 최적화",
+  "PC/ABS 제품 품질 개선 및 컴파운딩 생산 기술 개발",
+]
+
+[[career.orgs.roles]]
+title = "Senior Researcher"
+date = "2006 – 2009"
+unit = "Polycarbonate Polymerization Group"
+bullets = [
+  "Asahi-Kasei 라이선스 폴리카보네이트 제조 공장 가동",
+  "폴리카보네이트 중합 공정 최적화 및 품질 개선",
+  "분지형 폴리카보네이트 생산 공정 및 특성 분석법 개발, 투명 플라스틱(PC) 제품 개발",
+]
+
+[[career.orgs]]
+name = "Illinois Institute of Technology"
+meta = "Chicago, IL, USA"
+span = "1998 – 2006"
+
+[[career.orgs.roles]]
+title = "Postdoctoral Research Associate"
+date = "2005 – 2006"
+bullets = [
+  "이산화 기법을 이용한 리빙 중합 공정의 수학적 모델 개발",
+  "반응기 네트워크 모니터링·제어용 지능형 자율 에이전트 개발 참여",
+  "탄소 나노입자를 이용한 자유 라디칼 중합의 촉매 개시 공정 개발",
+]
+
+[[career.orgs.roles]]
+title = "Research Assistant"
+date = "1998 – 2005"
+bullets = [
+  "삼중 검출기 GPC 신호로부터 하이퍼브랜치 폴리머의 실제 분자량 분포를 결정하는 모델 개발",
+  "자유 부피 이론과 분자 동역학을 이용해 선형·하이퍼브랜치 폴리머의 T_{g}와 η_{0}를 연결하는 통합 접근법 개발",
+  "고온(300 °C)·고압(200 psi) 중합 공정 개발",
+]
+
+[[career.orgs]]
+name = "Keimyung University"
+meta = "Taegu, Korea"
+span = "1994 – 1998"
+
+[[career.orgs.roles]]
+title = "Research Assistant"
+date = "1994 – 1998"
+bullets = ["한외여과·역삼투 분리용 고분자 분리막 개발"]
+
+[education]
+eyebrow = "Education"
+title = "학력"
+intro = "한국과 미국에서 화학공학과 경영학을 수학했습니다."
+
+[[education.items]]
+year = "2019"
+degree = "Professional MBA"
+inst = "KAIST, Seoul"
+notes = ["지도교수: Yeosun Yoon"]
+
+[[education.items]]
+year = "2005"
+degree = "Ph.D. in Chemical Engineering"
+inst = "Illinois Institute of Technology, Chicago"
+notes = [
+  "“Synthesis and Characterization of Hyperbranched Polymers by High Temperature Continuous Polymerization”",
+  "지도교수: F. Teymour, J.A. Debling",
+]
+
+[[education.items]]
+year = "2001"
+degree = "M.S. in Chemical Engineering"
+inst = "Illinois Institute of Technology, Chicago"
+notes = ["“Mixed Mode Polymerization with Transesterification”", "지도교수: F. Teymour"]
+
+[[education.items]]
+year = "1998"
+degree = "B.S. in Industrial Chemistry"
+inst = "Keimyung University, Taegu"
+notes = [
+  "“A Control of Structure of Ultra-filtration Membranes based on Polystyrene and Poly(sodium 4-styrene sulfonate)”",
+  "지도교수: H.S. Byun",
+]
+
+[research]
+eyebrow = "Research & IP"
+title = "연구 성과"
+intro = "폴리카보네이트 분자 구조 제어와 기능성 소재를 중심으로 한 특허와 연구."
+patents_title = "특허"
+patents_meta = "등록 5 · PCT 출원 1"
+pubs_title = "논문 및 학회 발표"
+pubs_meta = "Selected"
+kinds = { journal = "학술지 논문", conference = "학회 발표" }
+honors_title = "수상 및 펠로십"
+members_title = "학회 활동"
+members = ["American Institute of Chemical Engineers", "American Chemical Society", "SPE Korea"]
+
+[[research.honors]]
+name = "Award of Excellence, Cheil Industries"
+year = "2009, 2010"
+
+[[research.honors]]
+name = "Postdoctoral Fellowship, Illinois Institute of Technology"
+year = "2005 – 2006"
+
+[[research.honors]]
+name = "Doctoral Fellowship, Johnson Polymer Inc."
+year = "1999 – 2005"
+
+[contact]
+eyebrow = "Contact"
+title = "기술 협력과 비즈니스 논의를 환영합니다"
+body = "폴리머 소재 기술, 신사업 개발, 산업 협력에 관한 문의를 기다립니다. 글로벌 화학 산업에서 쌓아 온 경험을 바탕으로 성실히 답변드리겠습니다."
+topics_label = "주요 논의 분야"
+topics = ["폴리올레핀·ETP 소재 기술", "가전·E&E 소재 솔루션", "합작법인(JV) 기술·사업 지원", "R&D 기반 신사업 개발"]
+email_label = "Email"
+phone_label = "Mobile"
+location_label = "Location"
+location = "Seoul, Korea"
+cta_email = "이메일 보내기"
+cta_phone = "전화 연결"

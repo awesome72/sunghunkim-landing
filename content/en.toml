@@ -1,0 +1,293 @@
+# Text markup: *emphasis*, T_{g} for subscript, {ko:김성헌} marks a phrase in another language.
+
+code = "en"
+html_lang = "en"
+hreflang = "en"
+label = "EN"
+native = "English"
+og_locale = "en_US"
+title = "Sung Hun Kim, Ph.D."
+description = "Sung Hun Kim, Ph.D. — Lead Scientist at SABIC Asia-Pacific with more than 20 years in polymer materials technology and global business development."
+og_title = "Sung Hun Kim, Ph.D."
+og_description = "Lead Scientist, SABIC Asia-Pacific · 20+ years in polymer materials technology and global business development"
+font_links = []
+
+[ui]
+brand = "Sung Hun Kim"
+brand_sub = "{ko:김성헌}"
+nav_aria = "Sections"
+lang_aria = "Language"
+contact_cta = "Contact"
+stats_aria = "Highlights"
+copy = "Copy"
+copied = "Copied"
+copy_failed = "Copy failed"
+copyright = "© 2026 Sung Hun Kim"
+footer_tagline = "Polymer Materials · Technology & Business Development"
+nav = [
+  { id = "profile", label = "Profile" },
+  { id = "expertise", label = "Expertise" },
+  { id = "career", label = "Experience" },
+  { id = "education", label = "Education" },
+  { id = "research", label = "Research" },
+]
+
+[hero]
+eyebrow = "Polymer Materials · Technology & Business Development"
+name = "Sung Hun Kim"
+alt = "Ph.D. in Chemical Engineering · {ko:김성헌}"
+lead = "A technology leader connecting polymer materials science with global business."
+sub = "Lead Scientist at SABIC Asia-Pacific, with more than two decades at Samsung Cheil Industries and SABIC leading R&D, product strategy and business development across polycarbonate, polyolefins and engineering thermoplastics."
+cta_primary = "Get in touch"
+cta_secondary = "View experience"
+affil_label = "Experience & Education"
+affil = ["SABIC", "Samsung Cheil Industries", "Illinois Institute of Technology", "KAIST"]
+photo_alt = "Portrait of Sung Hun Kim"
+caption_title = "Lead Scientist, SABIC Asia-Pacific"
+caption_sub = "Seoul, Korea"
+
+[[stats]]
+value = "20+"
+unit = "yrs"
+label = "Global chemical industry"
+note = "2006 – present"
+
+[[stats]]
+value = "13+"
+unit = "yrs"
+label = "At SABIC"
+note = "Lead Scientist, APAC"
+
+[[stats]]
+value = "6"
+label = "Patents"
+note = "5 granted · 1 PCT application"
+
+[[stats]]
+value = "4"
+label = "Degrees"
+note = "Ph.D. · MBA · M.S. · B.S."
+
+[profile]
+eyebrow = "About"
+title = "Profile"
+statement = "Starting from the market and the customer, I define the technical challenge and translate research into *products and businesses for the appliance, electronics and automotive industries*."
+sub = "With a Ph.D. in Chemical Engineering and a Professional MBA from KAIST, my career spans R&D, manufacturing technology, product marketing and business development. At SABIC, I lead materials projects for the appliance and E&E industries across Asia-Pacific."
+
+[expertise]
+eyebrow = "Capabilities"
+title = "Areas of Expertise"
+intro = "Across the polymer value chain, from R&D to business development."
+
+[[expertise.items]]
+title = "Technology & Business Development"
+body = "Initiating technology projects from market research and customer engagement. Business development in polyolefins and engineering thermoplastics, and technical and business support for the SABIC/SK joint venture and Aramco’s Asian assets."
+keys = "Market-driven Projects · Joint Venture Support · APAC"
+
+[[expertise.items]]
+title = "Polymer Materials R&D"
+body = "Led material solution development for new-concept appliances across the appliance, electronics and display industries, including transparent EMI shielding for microwave doors and self-heating polymers for heaters."
+keys = "Transparent EMI Shielding · Self-heating Polymer"
+
+[[expertise.items]]
+title = "Product Marketing & Strategy"
+body = "As product manager for polymer materials in TV housings, automotive and IT applications, managed product portfolios and life cycles and contributed to corporate strategy for the chemical business."
+keys = "Product Portfolio · Life-cycle Management · Strategy"
+
+[[expertise.items]]
+title = "Process Technology"
+body = "Deep technical knowledge across polymer synthesis, polymerization, characterization, processing and compounding. Expert in melt-process polycarbonate production (Asahi-Kasei process) and co-rotating twin-screw compounding."
+keys = "PC Melt Polymerization · Twin-screw Compounding"
+
+[[expertise.items]]
+title = "Product Development"
+body = "Developed materials for electronic applications, including flame-retardant TV housings (PC/ABS), washer diaphragms (TPE), transparent plastics (PC) and LED reflectors (Nylon)."
+keys = "PC/ABS · TPE · PC · Nylon"
+
+[[expertise.items]]
+title = "Research Foundation"
+body = "Strong theoretical and experimental grounding in polymer science and engineering, with modeling experience in polymerization kinetics, molecular weight distribution and extrusion."
+keys = "Polymerization Kinetics · MWD Modeling · Extrusion"
+
+[career]
+eyebrow = "Career"
+title = "Professional Experience"
+intro = "From academic research to technical and business leadership at a global chemical company."
+service_note = "Military service — Republic of Korea Air Force, Gimhae Air Base (1992 – 1994)"
+
+[[career.orgs]]
+name = "SABIC"
+meta = "Seoul, Korea"
+span = "2013 – Present"
+
+[[career.orgs.roles]]
+title = "Lead Scientist"
+date = "2016 – Present"
+unit = "Market Development & Technical Support · Asia-Pacific MDTS / Petrochemicals"
+current = true
+bullets = [
+  "Market-driven project development for polymer materials in the appliance and E&E industries — Global Lead",
+  "Business development for polyolefins (PE, PP), ETPs (ABS, PC, POM, PMMA) and rubbers (EPDM, BR, POE)",
+  "Joint venture support for SABIC/SK (Nexlene Company) in metallocene PE technology",
+  "Technology and business support for Aramco’s Asian assets (S-Oil, PRefChem) in polyolefins",
+]
+
+[[career.orgs.roles]]
+title = "Lead Scientist"
+date = "2013 – 2016"
+unit = "Technology & Innovation · Asia-Pacific Regional T&I (formerly GE Plastics)"
+bullets = [
+  "Market-driven R&D project development for the specialty and polymer businesses — APAC Lead",
+  "Executed R&D projects for emerging technologies and markets, such as transparent EMI shielding film",
+  "Developed new business opportunities in the chemical and polymer industries",
+]
+
+[[career.orgs]]
+name = "Cheil Industries, Samsung"
+meta = "Uiwang · Yeosu, Korea — now Lotte Advanced Materials"
+span = "2006 – 2013"
+
+[[career.orgs.roles]]
+title = "Senior Manager"
+date = "2011 – 2013"
+unit = "Product Management Team · Global Marketing Center"
+bullets = [
+  "Market development for new products (Hit Product Design)",
+  "Product life-cycle management from launch through expansion to end of life, by volume and profit",
+  "Product portfolio management and corporate strategy development for the chemical business",
+]
+
+[[career.orgs.roles]]
+title = "Principal Researcher"
+date = "2010 – 2011"
+unit = "Compounding & Processing Technology Group"
+bullets = [
+  "Expanded compounding plant capacity (10% of all lines, 50,000 tons/year) by optimizing screw configurations with low-heat kneading elements",
+  "Manufacturing quality assurance for non-halogen flame-retardant grades",
+  "Optimized extrusion process conditions for new materials (TPE, Nylon)",
+]
+
+[[career.orgs.roles]]
+title = "Senior Researcher"
+date = "2009 – 2010"
+unit = "Compounding Extrusion Processing Group"
+bullets = [
+  "Optimized compounding processes at the engineering plastics plant",
+  "Improved PC/ABS product quality and developed compounding production technology",
+]
+
+[[career.orgs.roles]]
+title = "Senior Researcher"
+date = "2006 – 2009"
+unit = "Polycarbonate Polymerization Group"
+bullets = [
+  "Launched a polycarbonate manufacturing plant licensed from Asahi-Kasei Corporation",
+  "Process optimization and quality improvement for polycarbonate polymerization",
+  "Developed production processes and characterization methods for branched polycarbonates, and transparent plastics (PC)",
+]
+
+[[career.orgs]]
+name = "Illinois Institute of Technology"
+meta = "Chicago, IL, USA"
+span = "1998 – 2006"
+
+[[career.orgs.roles]]
+title = "Postdoctoral Research Associate"
+date = "2005 – 2006"
+bullets = [
+  "Developed a mathematical model for living polymerization processes using discretization techniques",
+  "Contributed to an intelligent autonomous agent for monitoring and controlling reactor networks",
+  "Developed a catalytic initiation process for free-radical polymerization using carbon nanoparticles",
+]
+
+[[career.orgs.roles]]
+title = "Research Assistant"
+date = "1998 – 2005"
+bullets = [
+  "Developed a model to determine the true molecular weight distribution of hyperbranched polymers from triple-detector GPC signals",
+  "Developed a unifying approach relating T_{g} and η_{0} of linear and hyperbranched polymers using free-volume theory and molecular dynamics",
+  "Developed high-temperature (300 °C), high-pressure (200 psi) polymerization",
+]
+
+[[career.orgs]]
+name = "Keimyung University"
+meta = "Taegu, Korea"
+span = "1994 – 1998"
+
+[[career.orgs.roles]]
+title = "Research Assistant"
+date = "1994 – 1998"
+bullets = ["Developed polymer membranes for ultrafiltration and reverse osmosis separation"]
+
+[education]
+eyebrow = "Academic"
+title = "Education"
+intro = "Chemical engineering and business education in the United States and Korea."
+
+[[education.items]]
+year = "2019"
+degree = "Professional MBA"
+inst = "KAIST, Seoul"
+notes = ["Advisor: Yeosun Yoon"]
+
+[[education.items]]
+year = "2005"
+degree = "Ph.D. in Chemical Engineering"
+inst = "Illinois Institute of Technology, Chicago"
+notes = [
+  "Dissertation: “Synthesis and Characterization of Hyperbranched Polymers by High Temperature Continuous Polymerization”",
+  "Advisors: F. Teymour, J.A. Debling",
+]
+
+[[education.items]]
+year = "2001"
+degree = "M.S. in Chemical Engineering"
+inst = "Illinois Institute of Technology, Chicago"
+notes = ["Thesis: “Mixed Mode Polymerization with Transesterification”", "Advisor: F. Teymour"]
+
+[[education.items]]
+year = "1998"
+degree = "B.S. in Industrial Chemistry"
+inst = "Keimyung University, Taegu"
+notes = [
+  "Thesis: “A Control of Structure of Ultra-filtration Membranes based on Polystyrene and Poly(sodium 4-styrene sulfonate)”",
+  "Advisor: H.S. Byun",
+]
+
+[research]
+eyebrow = "Research & IP"
+title = "Patents & Publications"
+intro = "Centered on molecular-structure control of polycarbonate and functional materials."
+patents_title = "Patents"
+patents_meta = "5 granted · 1 PCT application"
+pubs_title = "Publications & Presentations"
+pubs_meta = "Selected"
+kinds = { journal = "Journal article", conference = "Conference" }
+honors_title = "Awards & Fellowships"
+members_title = "Professional Memberships"
+members = ["American Institute of Chemical Engineers", "American Chemical Society", "SPE Korea"]
+
+[[research.honors]]
+name = "Award of Excellence, Cheil Industries"
+year = "2009, 2010"
+
+[[research.honors]]
+name = "Postdoctoral Fellowship, Illinois Institute of Technology"
+year = "2005 – 2006"
+
+[[research.honors]]
+name = "Doctoral Fellowship, Johnson Polymer Inc."
+year = "1999 – 2005"
+
+[contact]
+eyebrow = "Contact"
+title = "Open to technical collaboration and business discussions"
+body = "Inquiries about polymer materials technology, new business development and industry partnerships are welcome. I look forward to hearing from you."
+topics_label = "Areas for discussion"
+topics = ["Polyolefin & ETP materials", "Appliance & E&E material solutions", "Joint venture technical & business support", "R&D-driven new business development"]
+email_label = "Email"
+phone_label = "Mobile"
+location_label = "Location"
+location = "Seoul, Korea"
+cta_email = "Send an email"
+cta_phone = "Call"

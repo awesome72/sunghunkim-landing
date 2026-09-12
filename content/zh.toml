@@ -1,0 +1,296 @@
+# Text markup: *emphasis*, T_{g} for subscript, {ko:김성헌} marks a phrase in another language.
+# Simplified Chinese. The personal name stays in Latin/Hangul until a confirmed Hanja name is provided.
+
+code = "zh"
+html_lang = "zh-Hans"
+hreflang = "zh-Hans"
+label = "中文"
+native = "简体中文"
+og_locale = "zh_CN"
+title = "Sung Hun Kim 博士 | SABIC 亚太区 Lead Scientist"
+description = "Sung Hun Kim 博士，SABIC 亚太区 Lead Scientist，在聚合物材料技术与全球业务拓展领域拥有逾 20 年经验。"
+og_title = "Sung Hun Kim 博士"
+og_description = "SABIC 亚太区 Lead Scientist · 聚合物材料技术与全球业务拓展逾 20 年"
+font_links = ["https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap"]
+
+[ui]
+brand = "Sung Hun Kim"
+brand_sub = "{ko:김성헌}"
+nav_aria = "页面导航"
+lang_aria = "选择语言"
+contact_cta = "联系"
+stats_aria = "主要数据"
+copy = "复制"
+copied = "已复制"
+copy_failed = "复制失败"
+copyright = "© 2026 Sung Hun Kim"
+footer_tagline = "Polymer Materials · Technology & Business Development"
+nav = [
+  { id = "profile", label = "个人简介" },
+  { id = "expertise", label = "专业领域" },
+  { id = "career", label = "工作经历" },
+  { id = "education", label = "教育背景" },
+  { id = "research", label = "研究成果" },
+]
+
+[hero]
+eyebrow = "Polymer Materials · Technology & Business Development"
+name = "Sung Hun Kim"
+alt = "化学工程博士 · {ko:김성헌}"
+lead = "连接聚合物材料科学与全球业务的技术领导者"
+sub = "现任沙特基础工业公司（SABIC）亚太区 Lead Scientist。在三星第一毛织与 SABIC 深耕逾 20 年，主导聚碳酸酯、聚烯烃及工程塑料的研发、产品战略与业务拓展。"
+cta_primary = "联系我"
+cta_secondary = "查看经历"
+affil_label = "任职及就读机构"
+affil = ["SABIC", "三星第一毛织", "伊利诺伊理工学院", "韩国科学技术院（KAIST）"]
+photo_alt = "Sung Hun Kim 博士肖像照"
+caption_title = "SABIC 亚太区 Lead Scientist"
+caption_sub = "韩国首尔"
+
+[[stats]]
+value = "20+"
+unit = "年"
+label = "全球化工行业经验"
+note = "2006 年至今"
+
+[[stats]]
+value = "13+"
+unit = "年"
+label = "任职 SABIC"
+note = "Lead Scientist, APAC"
+
+[[stats]]
+value = "6"
+unit = "项"
+label = "专利"
+note = "授权 5 项 · PCT 申请 1 项"
+
+[[stats]]
+value = "4"
+unit = "个"
+label = "学位"
+note = "Ph.D. · MBA · M.S. · B.S."
+
+[profile]
+eyebrow = "Profile"
+title = "个人简介"
+statement = "从市场与客户出发界定技术课题，将研究成果转化为*家电、电子与汽车行业的产品与业务*。"
+sub = "拥有化学工程博士学位及 KAIST 专业 MBA 学位，职业生涯横跨研发、生产技术、产品营销与业务拓展。目前在 SABIC 负责亚太区家电及电子电气（E&E）行业的材料项目。"
+
+[expertise]
+eyebrow = "Expertise"
+title = "专业领域"
+intro = "覆盖从研发到业务拓展的聚合物全价值链。"
+
+[[expertise.items]]
+title = "技术与业务拓展"
+body = "基于市场调研与客户参与策划技术项目。负责聚烯烃及工程塑料的业务拓展，并为 SABIC/SK 合资企业及沙特阿美亚洲资产提供技术与业务支持。"
+keys = "Market-driven Projects · Joint Venture Support · APAC"
+
+[[expertise.items]]
+title = "聚合物材料研发"
+body = "主导面向家电、电子与显示行业的新概念家电材料解决方案开发，包括微波炉门用透明电磁屏蔽材料、加热器用自发热聚合物等。"
+keys = "Transparent EMI Shielding · Self-heating Polymer"
+
+[[expertise.items]]
+title = "产品营销与战略"
+body = "作为电视外壳、汽车及 IT 领域聚合物材料的产品经理，负责产品组合与生命周期管理，并参与化工业务的公司战略制定。"
+keys = "Product Portfolio · Life-cycle Management · Strategy"
+
+[[expertise.items]]
+title = "工艺技术"
+body = "在聚合物合成、聚合、表征、加工及改性共混方面具备深厚的技术积累；是旭化成熔融法聚碳酸酯生产及同向双螺杆挤出共混领域的专家。"
+keys = "PC Melt Polymerization · Twin-screw Compounding"
+
+[[expertise.items]]
+title = "产品开发"
+body = "开发多款电子应用材料，包括阻燃电视外壳（PC/ABS）、洗衣机隔膜（TPE）、透明塑料（PC）及 LED 反射器（Nylon）。"
+keys = "PC/ABS · TPE · PC · Nylon"
+
+[[expertise.items]]
+title = "研究基础"
+body = "具备扎实的高分子科学与工程理论及实验功底，在聚合反应动力学、分子量分布及挤出过程建模方面经验丰富。"
+keys = "Polymerization Kinetics · MWD Modeling · Extrusion"
+
+[career]
+eyebrow = "Experience"
+title = "工作经历"
+intro = "从学术研究到全球化工企业的技术与业务领导。"
+service_note = "兵役 — 大韩民国空军金海基地（1992 – 1994）"
+
+[[career.orgs]]
+name = "沙特基础工业公司（SABIC）"
+meta = "韩国首尔"
+span = "2013 年至今"
+
+[[career.orgs.roles]]
+title = "Lead Scientist"
+date = "2016 年至今"
+unit = "Market Development & Technical Support · Asia-Pacific MDTS / Petrochemicals"
+current = true
+bullets = [
+  "面向家电及电子电气行业的市场导向型聚合物材料项目开发 — 全球负责人",
+  "聚烯烃（PE、PP）、工程塑料（ABS、PC、POM、PMMA）及橡胶（EPDM、BR、POE）业务拓展",
+  "为 SABIC/SK 合资企业（Nexlene Company）提供茂金属聚乙烯技术支持",
+  "为沙特阿美亚洲资产（S-Oil、PRefChem）提供聚烯烃技术与业务支持",
+]
+
+[[career.orgs.roles]]
+title = "Lead Scientist"
+date = "2013 – 2016"
+unit = "Technology & Innovation · Asia-Pacific Regional T&I（原 GE 塑料）"
+bullets = [
+  "面向特种材料及聚合物业务的市场导向型研发项目开发 — 亚太区负责人",
+  "执行透明电磁屏蔽薄膜等新兴技术与市场的研发项目",
+  "发掘化工及聚合物行业的新业务机会",
+]
+
+[[career.orgs]]
+name = "三星第一毛织（Cheil Industries）"
+meta = "韩国义王 · 丽水 — 现乐天先进材料（Lotte Advanced Materials）"
+span = "2006 – 2013"
+
+[[career.orgs.roles]]
+title = "Senior Manager"
+date = "2011 – 2013"
+unit = "Product Management Team · Global Marketing Center"
+bullets = [
+  "新产品市场开发（Hit Product Design）",
+  "按销量与利润管理产品从上市、扩展到停产的全生命周期",
+  "产品组合管理及化工业务公司战略制定",
+]
+
+[[career.orgs.roles]]
+title = "Principal Researcher"
+date = "2010 – 2011"
+unit = "Compounding & Processing Technology Group"
+bullets = [
+  "采用低生热捏合元件优化螺杆组合，提升共混工厂产能（占全部产线的 10%，年产 50,000 吨）",
+  "无卤阻燃牌号的生产质量保证",
+  "新材料（TPE、Nylon）挤出工艺条件优化",
+]
+
+[[career.orgs.roles]]
+title = "Senior Researcher"
+date = "2009 – 2010"
+unit = "Compounding Extrusion Processing Group"
+bullets = [
+  "工程塑料工厂共混工艺优化",
+  "改善 PC/ABS 产品质量，开发共混生产技术",
+]
+
+[[career.orgs.roles]]
+title = "Senior Researcher"
+date = "2006 – 2009"
+unit = "Polycarbonate Polymerization Group"
+bullets = [
+  "引进旭化成技术许可的聚碳酸酯生产工厂并实现投产",
+  "聚碳酸酯聚合工艺优化及质量改进",
+  "开发支化聚碳酸酯生产工艺及表征方法，并开发透明塑料（PC）产品",
+]
+
+[[career.orgs]]
+name = "伊利诺伊理工学院（Illinois Institute of Technology）"
+meta = "美国伊利诺伊州芝加哥"
+span = "1998 – 2006"
+
+[[career.orgs.roles]]
+title = "Postdoctoral Research Associate"
+date = "2005 – 2006"
+bullets = [
+  "利用离散化方法建立活性聚合过程的数学模型",
+  "参与开发用于反应器网络监测与控制的智能自主代理",
+  "开发利用碳纳米颗粒的自由基聚合催化引发工艺",
+]
+
+[[career.orgs.roles]]
+title = "Research Assistant"
+date = "1998 – 2005"
+bullets = [
+  "建立基于三检测器 GPC 信号确定超支化聚合物真实分子量分布的模型",
+  "运用自由体积理论与分子动力学，建立关联线性及超支化聚合物 T_{g} 与 η_{0} 的统一方法",
+  "开发高温（300 °C）、高压（200 psi）聚合工艺",
+]
+
+[[career.orgs]]
+name = "启明大学（Keimyung University）"
+meta = "韩国大邱"
+span = "1994 – 1998"
+
+[[career.orgs.roles]]
+title = "Research Assistant"
+date = "1994 – 1998"
+bullets = ["开发用于超滤及反渗透分离的聚合物膜"]
+
+[education]
+eyebrow = "Education"
+title = "教育背景"
+intro = "于美国和韩国修读化学工程与工商管理。"
+
+[[education.items]]
+year = "2019"
+degree = "专业 MBA（Professional MBA）"
+inst = "韩国科学技术院（KAIST），首尔"
+notes = ["导师：Yeosun Yoon"]
+
+[[education.items]]
+year = "2005"
+degree = "化学工程博士（Ph.D.）"
+inst = "伊利诺伊理工学院，芝加哥"
+notes = [
+  "博士论文：“Synthesis and Characterization of Hyperbranched Polymers by High Temperature Continuous Polymerization”",
+  "导师：F. Teymour、J.A. Debling",
+]
+
+[[education.items]]
+year = "2001"
+degree = "化学工程硕士（M.S.）"
+inst = "伊利诺伊理工学院，芝加哥"
+notes = ["硕士论文：“Mixed Mode Polymerization with Transesterification”", "导师：F. Teymour"]
+
+[[education.items]]
+year = "1998"
+degree = "工业化学学士（B.S.）"
+inst = "启明大学，大邱"
+notes = [
+  "学士论文：“A Control of Structure of Ultra-filtration Membranes based on Polystyrene and Poly(sodium 4-styrene sulfonate)”",
+  "导师：H.S. Byun",
+]
+
+[research]
+eyebrow = "Research & IP"
+title = "研究成果"
+intro = "以聚碳酸酯分子结构控制及功能材料为核心的专利与研究。"
+patents_title = "专利"
+patents_meta = "授权 5 项 · PCT 申请 1 项"
+pubs_title = "论文及学术报告"
+pubs_meta = "精选"
+kinds = { journal = "期刊论文", conference = "会议报告" }
+honors_title = "奖项与奖学金"
+members_title = "学会会员"
+members = ["美国化学工程师学会（AIChE）", "美国化学会（ACS）", "SPE Korea"]
+
+[[research.honors]]
+name = "三星第一毛织卓越奖（Award of Excellence）"
+year = "2009, 2010"
+
+[[research.honors]]
+name = "伊利诺伊理工学院博士后奖学金"
+year = "2005 – 2006"
+
+[[research.honors]]
+name = "Johnson Polymer 博士奖学金"
+year = "1999 – 2005"
+
+[contact]
+eyebrow = "Contact"
+title = "欢迎技术合作与业务洽谈"
+body = "欢迎就聚合物材料技术、新业务开发及产业合作进行咨询。期待与您交流。"
+topics_label = "主要洽谈领域"
+topics = ["聚烯烃与工程塑料材料", "家电及电子电气材料解决方案", "合资企业技术与业务支持", "基于研发的新业务开发"]
+email_label = "邮箱"
+phone_label = "手机"
+location_label = "所在地"
+location = "韩国首尔"
+cta_email = "发送邮件"
+cta_phone = "拨打电话"
