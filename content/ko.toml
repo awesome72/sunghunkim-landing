@@ -6,9 +6,9 @@ hreflang = "ko"
 label = "KO"
 native = "한국어"
 og_locale = "ko_KR"
-title = "김성헌 Sung Hun Kim, Ph.D."
-description = "SABIC Asia-Pacific Lead Scientist 김성헌 박사. 폴리머 소재 기술과 글로벌 사업 개발 분야 20년 이상의 경력."
-og_title = "김성헌 Sung Hun Kim, Ph.D."
+title = "김성헌(金成憲) Sung Hun Kim, Ph.D."
+description = "SABIC Asia-Pacific Lead Scientist 김성헌(金成憲) 박사. 폴리머 소재 기술과 글로벌 사업 개발 분야 20년 이상의 경력."
+og_title = "김성헌(金成憲) Sung Hun Kim, Ph.D."
 og_description = "SABIC Asia-Pacific Lead Scientist · 폴리머 소재 기술과 글로벌 사업 개발 20년"
 font_links = []
 
@@ -35,7 +35,7 @@ nav = [
 [hero]
 eyebrow = "Polymer Materials · Technology & Business Development"
 name = "김성헌"
-alt = "Sung Hun Kim, Ph.D."
+alt = "金成憲 · Sung Hun Kim, Ph.D."
 lead = "폴리머 소재 과학과 글로벌 비즈니스를 잇는 기술 리더"
 sub = "SABIC Asia-Pacific Lead Scientist. 삼성 제일모직과 SABIC에서 20년 이상 폴리카보네이트·폴리올레핀·엔지니어링 플라스틱의 연구개발, 제품 전략, 사업 개발을 이끌어 왔습니다."
 cta_primary = "연락하기"

@@ -65,5 +65,6 @@ Simplified Chinese. Plain static HTML/CSS/JS served by GitHub Pages — no frame
   tenure ("2016 – present", "13+ years").
 - Patents are 5 granted + 1 PCT application; never describe all six as granted.
 - The owner's Chinese-character name is 金成憲 (confirmed by the owner). It is the primary name on the Chinese
-  page, in exactly that form — keep 憲 even though Simplified Chinese would normally write 宪.
+  page and appears beside 김성헌 on the Korean page, always in exactly that form — keep 憲 even though Simplified
+  Chinese would normally write 宪.
 - Patent and publication titles stay in their official English form in every language.
