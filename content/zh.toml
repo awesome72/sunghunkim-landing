@@ -1,5 +1,5 @@
 # Text markup: *emphasis*, T_{g} for subscript, {ko:김성헌} marks a phrase in another language.
-# Simplified Chinese. The personal name stays in Latin/Hangul until a confirmed Hanja name is provided.
+# Simplified Chinese. The owner's name is written 金成憲, exactly as he gave it.
 
 code = "zh"
 html_lang = "zh-Hans"
@@ -7,15 +7,15 @@ hreflang = "zh-Hans"
 label = "中文"
 native = "简体中文"
 og_locale = "zh_CN"
-title = "Sung Hun Kim 博士 | SABIC 亚太区 Lead Scientist"
-description = "Sung Hun Kim 博士，SABIC 亚太区 Lead Scientist，在聚合物材料技术与全球业务拓展领域拥有逾 20 年经验。"
-og_title = "Sung Hun Kim 博士"
+title = "金成憲博士 | SABIC 亚太区 Lead Scientist"
+description = "金成憲（Sung Hun Kim）博士，SABIC 亚太区 Lead Scientist，在聚合物材料技术与全球业务拓展领域拥有逾 20 年经验。"
+og_title = "金成憲博士（Sung Hun Kim）"
 og_description = "SABIC 亚太区 Lead Scientist · 聚合物材料技术与全球业务拓展逾 20 年"
 font_links = ["https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap"]
 
 [ui]
-brand = "Sung Hun Kim"
-brand_sub = "{ko:김성헌}"
+brand = "金成憲"
+brand_sub = "Sung Hun Kim"
 nav_aria = "页面导航"
 lang_aria = "选择语言"
 contact_cta = "联系"
@@ -23,7 +23,7 @@ stats_aria = "主要数据"
 copy = "复制"
 copied = "已复制"
 copy_failed = "复制失败"
-copyright = "© 2026 Sung Hun Kim"
+copyright = "© 2026 金成憲 Sung Hun Kim"
 footer_tagline = "Polymer Materials · Technology & Business Development"
 nav = [
   { id = "profile", label = "个人简介" },
@@ -35,15 +35,15 @@ nav = [
 
 [hero]
 eyebrow = "Polymer Materials · Technology & Business Development"
-name = "Sung Hun Kim"
-alt = "化学工程博士 · {ko:김성헌}"
+name = "金成憲"
+alt = "Sung Hun Kim, Ph.D. · 化学工程博士"
 lead = "连接聚合物材料科学与全球业务的技术领导者"
 sub = "现任沙特基础工业公司（SABIC）亚太区 Lead Scientist。在三星第一毛织与 SABIC 深耕逾 20 年，主导聚碳酸酯、聚烯烃及工程塑料的研发、产品战略与业务拓展。"
 cta_primary = "联系我"
 cta_secondary = "查看经历"
 affil_label = "任职及就读机构"
 affil = ["SABIC", "三星第一毛织", "伊利诺伊理工学院", "韩国科学技术院（KAIST）"]
-photo_alt = "Sung Hun Kim 博士肖像照"
+photo_alt = "金成憲博士肖像照"
 caption_title = "SABIC 亚太区 Lead Scientist"
 caption_sub = "韩国首尔"
 

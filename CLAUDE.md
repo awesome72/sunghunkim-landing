@@ -64,6 +64,6 @@ Simplified Chinese. Plain static HTML/CSS/JS served by GitHub Pages — no frame
 - Every profile fact comes from that resume, dated February 2023. The owner has not re-confirmed current role and
   tenure ("2016 – present", "13+ years").
 - Patents are 5 granted + 1 PCT application; never describe all six as granted.
-- The owner has no confirmed Chinese-character name. The Chinese page uses "Sung Hun Kim" plus Hangul; don't
-  invent a Hanja name.
+- The owner's Chinese-character name is 金成憲 (confirmed by the owner). It is the primary name on the Chinese
+  page, in exactly that form — keep 憲 even though Simplified Chinese would normally write 宪.
 - Patent and publication titles stay in their official English form in every language.
