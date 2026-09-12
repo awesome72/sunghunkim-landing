@@ -482,12 +482,41 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; font-si
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
+  :root { --nav-h: 104px; }
   .wrap { padding: 0 24px; }
-  .nav-links { display: none; }
-  .hero { padding: 64px 0; }
-  .hero .wrap { grid-template-columns: 1fr; gap: 48px; }
-  .hero figure { max-width: 260px; }
-  .hero h1 { font-size: 42px; }
+
+  /* Two-row header: identity and actions on top, a swipeable section bar below. */
+  .nav .wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: 60px 44px;
+    gap: 0 12px;
+  }
+  .brand { grid-column: 1; grid-row: 1; align-self: center; min-width: 0; }
+  .nav-actions { grid-column: 2; grid-row: 1; }
+  .nav-links {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    align-self: stretch;
+    align-items: stretch;
+    gap: 24px;
+    margin: 0 -24px;
+    padding: 0 24px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    border-top: 1px solid var(--line);
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { display: flex; align-items: center; white-space: nowrap; padding: 0; }
+  .nav-links a.is-active::after { bottom: 0; }
+
+  .hero { padding: 36px 0 56px; }
+  .hero .wrap { grid-template-columns: 1fr; gap: 28px; }
+  .hero figure { order: -1; width: 168px; }
+  .hero figcaption { display: none; }
+  .hero h1 { font-size: 42px; margin-top: 16px; }
   .hero .lead { font-size: 20px; }
   .stats ul { grid-template-columns: repeat(2, 1fr); }
   .stats li { padding: 24px 20px; }
@@ -501,12 +530,23 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; font-si
   .records li { grid-template-columns: 48px minmax(0, 1fr); }
   .rec-id { grid-column: 2; text-align: left; margin-top: -12px; }
   .org-head, .role-head { flex-direction: column; gap: 2px; }
+  .contact { padding: 64px 0 80px; }
   .contact-panel { grid-template-columns: 1fr; padding: 32px 24px; gap: 40px; }
+  .contact h2 { font-size: 28px; }
   footer .wrap { flex-direction: column; }
+}
+
+/* Finger-sized targets on phones and other touch screens. */
+@media (max-width: 960px), (pointer: coarse) {
+  .nav .btn, .lang summary { height: 44px; }
+  .lang-menu a { padding: 13px 14px; }
+  .brand { padding: 10px 0; }
+  .copy-btn { min-height: 36px; padding: 6px 12px; }
 }
 
 @media (max-width: 480px) {
   .brand span { display: none; }
+  .hero h1 { font-size: 38px; }
 }
 
 /* ---------- Print ---------- */

@@ -3,13 +3,24 @@
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
   var langLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-lang]'));
   var sections = Array.prototype.slice.call(document.querySelectorAll('main > section[id]'));
+  var navBar = document.querySelector('.nav-links');
 
   // Language links carry the section in view, so switching language keeps the reader's place.
   function setCurrent(id) {
-    navLinks.forEach(function (a) { a.classList.toggle('is-active', a.hash === '#' + id); });
+    var active = null;
+    navLinks.forEach(function (a) {
+      var on = a.hash === '#' + id;
+      a.classList.toggle('is-active', on);
+      if (on) active = a;
+    });
     langLinks.forEach(function (a) {
       a.setAttribute('href', a.dataset.base + (id && id !== 'top' ? '#' + id : ''));
     });
+    // On phones the section bar scrolls sideways; keep the active item centred in it.
+    if (active && navBar && navBar.scrollWidth > navBar.clientWidth) {
+      var bar = navBar.getBoundingClientRect(), link = active.getBoundingClientRect();
+      navBar.scrollLeft += (link.left - bar.left) - (bar.width - link.width) / 2;
+    }
   }
 
   if ('IntersectionObserver' in window) {
